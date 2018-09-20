@@ -33,5 +33,4 @@ the img downloaded,labeled_img and the out_putvideo is located in ``/imgs``,``/l
 
 # Reference
 Example Program provided by EC601 professor. Author - Prateek Mehta<br/>
-Google Cloud Flatform API tutorials.
-https://cloud.google.com/vision/overview/docs/
+Google Cloud Flatform API tutorials.(https://cloud.google.com/vision/overview/docs/)
