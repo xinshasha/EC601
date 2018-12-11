@@ -48,9 +48,7 @@ def get_all_tweets(screen_name,pic_out):
         if(len(alltweets) > 15):
             break
         print("...%s tweets downloaded so far" % (len(alltweets)))
-       
 
-    medias=[]
     m=0
     for status in alltweets:
         tmp = status.entities.get('media', []);

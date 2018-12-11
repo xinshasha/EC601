@@ -1,6 +1,6 @@
-# EC601<br/>
+# EC601_project_3
 simply run assignment_1.py is ok.<br/>
-the other two python files are written into forms of API.<br/>
+Data will be uploaded to database.<br/>
 
 # Building Evironment
 ``Python 3.6``
@@ -9,6 +9,8 @@ the other two python files are written into forms of API.<br/>
 ``PIL``
 ``Tweepy``
 ``urllib``
+``_mysql``
+``pymongo``
 
 # User Guide
 tweetAPI.py is used to grab pictures from specified accounts.run by
@@ -28,9 +30,11 @@ assignment1.py is a file that import the previous python files and can be seen a
 just run like ```python python assignment1.py``` or open a new python file and <br/>```import assignment1.py```<br/>
 ```assignment1.Assign1("Your target account",'output_path','input_path','Labeled_imgs_path','Output_Video_Path')```<br/> is ok to run the API.
 
-# Demo
-the img downloaded,labeled_img and the out_putvideo is located in ``/imgs``,``/labeled_imgs``,``Chanel.mp4``
+```python
+python query_api_mysql.py
+```
 
-# Reference
-Example Program provided by EC601 professor. Author - Prateek Mehta<br/>
-[Google Cloud Flatform API tutorials.](https://cloud.google.com/vision/overview/docs/)
+```python
+python query_api_mongo.py
+```
+Above are apis for database querying.
